@@ -34,8 +34,8 @@ export const ConversationCard = ({ conversation }: ConversationTypes) => {
       bg={conversationId === id ? 'main.200' : 'white'}
       _hover={{ cursor: 'pointer', bg: 'main.2-0' }}
     >
-      <Box display='flex' mt='2' justifyContent='end' >
-        <Text fontSize="0.625rem" color="gray.500" >
+      <Box display='flex' mt='2' justifyContent='end'>
+        <Text fontSize="0.625rem" color="gray.500">
               {lastMessageTime}
             </Text>
       </Box>
