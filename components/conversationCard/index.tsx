@@ -34,10 +34,10 @@ export const ConversationCard = ({ conversation }: ConversationTypes) => {
       bg={conversationId === id ? 'main.200' : 'white'}
       _hover={{ cursor: 'pointer', bg: 'main.2-0' }}
     >
-      <Box display='flex' mt='2' justifyContent='end'>
+      <Box display="flex" mt="2" justifyContent="end">
         <Text fontSize="0.625rem" color="gray.500">
-              {lastMessageTime}
-            </Text>
+          {lastMessageTime}
+        </Text>
       </Box>
       <Flex>
         <Center>
@@ -52,7 +52,7 @@ export const ConversationCard = ({ conversation }: ConversationTypes) => {
             <Heading fontSize="0.938rem" color="black">
               {name}
             </Heading>
-            <Spacer />            
+            <Spacer />
           </Center>
           <Center>
             <Text noOfLines={1} fontSize="0.875rem">
@@ -62,6 +62,5 @@ export const ConversationCard = ({ conversation }: ConversationTypes) => {
         </Box>
       </Flex>
     </Box>
-    
   )
 }

@@ -38,4 +38,3 @@ export const DirectMessages = () => {
     </Box>
   )
 }
-  
