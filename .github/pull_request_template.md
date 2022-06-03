@@ -1,6 +1,6 @@
 ## Resolvido
 
--[nome do card] (link do card)
+-  [nome do card](link do card)
 
 ### O que foi adicionado
 
