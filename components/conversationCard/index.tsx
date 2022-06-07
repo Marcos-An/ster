@@ -10,6 +10,8 @@ import {
 } from '@chakra-ui/react'
 import { useContext } from 'react'
 import { MessageContext } from '@/contexts/messagesContext'
+import { db } from '../../firebase'
+import { collection, getDocs } from 'firebase/firestore/lite'
 
 type ConversationTypes = {
   conversation: {
@@ -26,6 +28,7 @@ export const ConversationCard = ({ conversation }: ConversationTypes) => {
   const { conversationId, changeConversationId } = controllersContext
 
   const { id, avatar, name, lastMessageTime, lastMessage } = conversation
+
   return (
     <Box
       px="1.563rem"
