@@ -25,7 +25,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "layout/mainLayout/index.tsx"
+    "layout/MainLayout/index.tsx"
   ],
   "exclude": ["node_modules"]
 }

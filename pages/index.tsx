@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { MainLayout } from '@/layout/mainLayout'
+import { MainLayout } from '@/layout/MainLayout'
 
 const Home: NextPage = () => {
   return <MainLayout />

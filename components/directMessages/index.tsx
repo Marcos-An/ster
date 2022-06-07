@@ -1,5 +1,5 @@
 import { Box, Text } from '@chakra-ui/react'
-import { ConversationCard } from '@/components/conversationCard'
+import { ConversationCard } from '@/components/ConversationCard'
 
 const conversations = [
   {

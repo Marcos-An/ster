@@ -1,6 +1,6 @@
 import { Grid, GridItem } from '@chakra-ui/react'
-import { SearchBox } from '@/components/searchBox'
-import { DirectMessages } from '@/components/directMessages'
+import { SearchBox } from '@/components/SearchBox'
+import { DirectMessages } from '@/components/DirectMessages'
 
 export const MainLayout = () => {
   return (
