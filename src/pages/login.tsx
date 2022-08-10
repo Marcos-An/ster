@@ -17,6 +17,7 @@ import {
 import FeatherIcon from 'feather-icons-react'
 import { useRouter } from 'next/router'
 import api from '@services/api'
+import Cookie from 'js-cookie'
 
 export default function Register() {
   const emailInputRef = useRef<HTMLInputElement>(null)
@@ -32,9 +33,13 @@ export default function Register() {
       password: passwordInputRef.current.value
     }
 
-    const res = await api.post('/auth/login', user)
+    const { data } = await api.post('/auth/login', user)
 
-    console.log(res)
+    Cookie.set('token', data.token)
+
+    if (data.token) {
+      router.push('/chanel')
+    }
   }
 
   return (
