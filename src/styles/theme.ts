@@ -13,6 +13,7 @@ const colors = {
   white: '#ffffff',
   black: '#000000',
   yellow: '#FCA311',
+  blue: '#309CFF',
   green: '#1ABA00',
   gray: {
     700: '#36393F',
