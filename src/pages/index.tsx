@@ -4,12 +4,11 @@ export default function Home() {
   return <Text color="main">Teste</Text>
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   return {
     redirect: {
       destination: '/login',
       permanent: false
-    },
-    props: {}
+    }
   }
 }
