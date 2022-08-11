@@ -1,12 +1,7 @@
 import WithAuth from '@utils/withAuth'
 
 function Chanel() {
-  return (
-    <div>
-      <header></header>
-      <body />{' '}
-    </div>
-  )
+  return <div>teste chanel</div>
 }
 
 export default WithAuth(Chanel)

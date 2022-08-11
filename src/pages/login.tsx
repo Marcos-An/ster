@@ -38,12 +38,12 @@ export default function Register() {
     Cookie.set('token', data.token)
 
     if (data.token) {
-      router.push('/chanel')
+      router.push('/contacts')
     }
   }
 
   return (
-    <Box py={5}>
+    <Box py={5} px="0.938rem">
       <Center flexDirection="column" mb={16}>
         <Image
           boxSize="100px"

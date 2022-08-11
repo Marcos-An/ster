@@ -41,7 +41,7 @@ export default function Register() {
   }
 
   return (
-    <Box py={5}>
+    <Box py={5} px="0.938rem">
       <Center flexDirection="column">
         <Image
           boxSize="70px"
